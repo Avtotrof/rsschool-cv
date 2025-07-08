@@ -7,11 +7,11 @@
 * #### Discord: _#xers7480_
 ***************
 ## About me
-
+#### **Curious and enthusiastic learner with a passion for coding and technology. I enjoy solving problems, quickly mastering new skills, and thrive in dynamic environments. My goal is to gain the knowledge and experience needed for a successful career in tech.**
 ****************
 ## Skills
 * #### GitHub
-* #### Python (basics)
+* #### VSCode
 * #### Javascript (basics)
 ***************
 ## Code Example
@@ -27,8 +27,7 @@ function positiveSum(arr) {
 ```
 ***************
 ## Experience
- * 
- *
+ * #### [CV project](https://github.com/Avtotrof/rsschool-cv "My CV") (in development)
 *****************
 ## Languages
 * #### English - Intermediate (B1)
