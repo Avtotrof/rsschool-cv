@@ -95,4 +95,34 @@ font-family: Lato, sans-serif;
     font-weight: 700;
     color: #4d2323;
     letter-spacing: 10px;
+    text-align: center;
+}
+.avatar {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.section-item {
+  position: relative;
+  padding-left: 30px;
+}
+
+.section-item::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #829985;
+  border-radius: 50%;
+}
+pre, code {
+  background-color: #b3b3b3;
+  color: #a54646;
+  padding: 12px;
+  border-radius: 8px;
+  display: block;
 }
