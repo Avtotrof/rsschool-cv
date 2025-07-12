@@ -24,19 +24,21 @@ body {
   color: #4d2323;
 }
 .container {
-  max-width: 1440px;
   margin: 0 auto;
 }
 .nav-list {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: center;
    list-style: none;
-   
-  
 }
 .nav-item {
-  margin-right: 40px;
+  margin-right: 100px;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #829985;
   
 }
 html {
@@ -46,18 +48,18 @@ html {
   padding: 0 20px;
   line-height: 50px;
   transition: 0.3s;
-  color: #610de9;
-  background-color: rgb(255, 86, 86);
-  border-color: black;
-  border-radius: 20px;
-}
-.section-item a {
-  color: #829985;
+  color: #000000;
+  background-color: rgb(0, 230, 142);
   text-decoration: none;
-  transition: color 0.5s;
+  size: 100px;
 }
-.section-item a:hover {
-  color: #4d2323;
+.nav-link:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+.section-item {
+  margin-bottom: 20px;
+
 }
 .main-container {
   display: flex;
@@ -67,7 +69,7 @@ html {
 .section {
   width: 50%;
 }
-@media (max-width: 768px) {
+@media (max-width: 2000px) {
   .section {
     width: 100%;
   }
@@ -78,7 +80,7 @@ font-family: Lato, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #829985;
+  color: #2e07db;
 }
 .link {
   text-decoration: none;
@@ -120,9 +122,39 @@ font-family: Lato, sans-serif;
   border-radius: 50%;
 }
 pre, code {
-  background-color: #b3b3b3;
-  color: #a54646;
+  background-color: #10fcb5;
+  color: #160707;
   padding: 12px;
   border-radius: 8px;
   display: block;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.section {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+.code-right {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #10fcb5;
+  color: #160707;
+  padding: 12px 20px;
+  border-radius: 8px;
+  max-width: 400px;    
+  text-align: left;      
+  font-size: 16px;
+  overflow-x: auto;
+}
+.header {
+  height: 100px;
+  background-color: #829985;
 }
